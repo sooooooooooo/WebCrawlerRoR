@@ -1,0 +1,19 @@
+// Place all the styles related to the Crawlers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+                url(image-path('spinner.gif'))
+                50% 50%
+                no-repeat;
+    background-size: 20%;
+}
